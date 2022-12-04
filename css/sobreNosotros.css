@@ -1,0 +1,226 @@
+
+/*----------- GENERALES ------------*/
+.section {
+    width: 90%;
+    margin: 20px auto;
+}
+
+
+.title-h2 {
+    margin: 4% 0 1%;
+    margin-bottom: 3%;
+}
+
+.margin-padding-0 {
+    margin: 0;
+    padding: 0;
+}
+
+.padding-left-10 {
+    padding-left: 10%;
+}
+
+.padding-botom-10 {
+    padding-bottom: 10%;
+}
+
+.margin-bottom {
+    margin-bottom: 1%;
+}
+
+.margin-bottom-10 {
+    margin-bottom: 10%;
+}
+
+.border-radius {
+    border-radius: 4px;
+}
+
+.text-white {
+    color: white;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+
+/*------------ DIVs Conoce Nuestra Sucursal" ---------------*/
+.div-contenedor {
+    margin: 0;
+    padding: 0;
+   /* background: gray;*/
+}
+
+.div-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.half-width {
+    width: 50%;
+    margin: 1%;
+    padding: 0.5%;
+}
+
+.div-text {
+    background: rgb(255, 255, 255);
+}
+
+.div-flex-center {
+    display: flex;
+    align-items: center;
+}
+
+
+/*--------------- COLLAGUE IMAGENES ----------*/
+.image-column {
+    width: 30%;
+    /* background: blanchedalmond; */
+    margin: 1% auto;
+}
+
+.image-column img {
+    margin: 0 auto;
+    max-width: 100%;
+    margin: 2% auto;
+    border-radius: 8px;
+}
+
+
+
+/*------------ CARDs Horarios----------------*/
+.image-column-4 {
+    width: 24%;
+    /* background: blanchedalmond; */
+    margin: 1% auto;
+}
+
+.image-column-4 img {
+    margin: 0 auto;
+    max-width: 100%;
+    margin: 4% auto;
+    border-radius: 8px;
+    padding: 1px;
+    background: black;
+}
+
+.image-column-4 h4{
+    text-align: left;
+    font-size:large ;
+
+}
+.image-column-4 p{
+    font-size: small;
+    font-weight: lighter;
+    font-style: italic;
+    text-align: justify;
+}
+
+.card-container {
+    width: 13%;
+    background: rgb(0, 0, 0);
+    border-radius: 8px;
+    text-align: center;
+    padding: 2%;
+    margin-bottom: 8%;
+}
+
+.card-container H5:hover{
+    color: #e7b302
+}
+
+.h5-bold {
+    font-weight: bold;
+    color: white;
+    margin: 0;
+}
+
+.p-text {
+    margin: 3% 0 0;
+    color: white;
+}
+
+
+
+/*----------- CARDs MENU ------------*/
+.card-container {
+    width: 13%;
+    border-radius: 8px;
+    text-align: center;
+    padding: 2%;
+}
+
+.h5-bold {
+    font-weight: bold;
+    margin: 0;
+}
+
+.p-text {
+    margin: 3% 0 0;
+}
+
+.titulo-principal h3{
+    font-size: 40px;
+    text-align: center;
+    margin: 4% 0;
+}
+
+
+
+/*------------ REDES SOCIALES -----------*/
+.div-social-network {
+    background: black;
+    padding: 4% 3%;
+}
+
+.social-network {
+    background: white;
+    padding: 1% 2%;
+    border-radius: 12px;
+}
+
+.social-network-icon {
+    width: 70%;
+}
+
+.card-container-network {
+    width: 25%;
+    background: rgb(0, 0, 0);
+    border-radius: 20px;
+    text-align: center;
+    padding: 2%;
+    margin-bottom: 8%;
+}
+
+
+/*------------ UBICACION ------------*/
+.location-container {
+    display: flex;
+    background: white;
+    padding: 1%;
+}
+
+.location-map {
+    width: 69%;
+}
+
+.location-information {
+    width: 29%;
+    background-color: white;
+
+}
+
+/*
+.text-white-bg {
+background-color: white;
+}*/
+
+.information-address p{
+    color: black;
+}
+
+.information-address h5{
+    color: black;
+}

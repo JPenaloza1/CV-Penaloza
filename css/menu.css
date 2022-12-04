@@ -1,0 +1,18 @@
+
+/*------------ CARDS -------------*/
+.card-container {
+    padding: 2%;
+   /* background: gray;*/
+    border-radius: 8px;
+    width: 13%;
+    text-align: center;
+}
+
+.h5-bold {
+    font-weight: bold;
+    margin: 0;
+}
+
+.p-text {
+    margin: 5px 0 0;
+}

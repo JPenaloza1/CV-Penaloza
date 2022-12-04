@@ -1,1 +1,0 @@
-Hola, esta es mi primera página web y en ella he plasmado mi curriculum vitae.

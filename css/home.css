@@ -1,0 +1,251 @@
+
+:root{
+    --fondoUV:white;
+    --fondooUV:white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--fondooUV);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contenedor{
+    width: 90%;
+    margin: auto;
+    /* background: red; */
+}
+
+.separacion-seccion {
+    margin: 70px auto;
+}
+
+.separacion-seccion h3{
+    margin-bottom: 2%;
+}
+
+.centrado-horizontal {
+    display: flex;
+    margin: 0 auto;
+}
+
+.titulo-seccion {
+    color: black;
+    font-size: 23px;
+    margin: 0px;
+}
+
+
+
+/*---------Contenedor Título y Controller---------*/
+.contenedor-titulo-controles{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+
+.contenedor-titulo-controles h3{
+    color: black;
+    font-size: 23px;
+    margin-top: 4%;
+}
+
+
+.contenedor-titulo-controles .indicadores button{
+    background: black;
+    height: 3px;
+    width: 10px;
+    cursor: pointer;
+    border: none;
+    margin-right: 2px;
+
+}
+
+
+
+.contenedor-titulo-controles .indicadores button:hover,
+.contenedor-titulo-controles .indicadores button.activo{
+    background: #000;
+}
+
+
+
+/*----------------------Contenedor Principal y flechas-------------------------*/
+
+.promocionales{
+    margin-bottom: 70px;
+}
+
+
+.promocionales .contenedor-principal{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+
+.promocionales .contenedor-principal .flecha-izquierda,
+.promocionales .contenedor-principal .flecha-derecha{
+    position: absolute;
+    border: none;
+    background: rgba(0,0,0, 0.3);
+    font-size: 40px;
+    height: 50%;
+    top: calc(50% - 25%);
+    line-height: 40px;
+    width: 50px;
+    color: #fff;
+    cursor: pointer;
+    z-index: 500;
+    transition: .2s ease all;
+}
+
+
+.promocionales .contenedor-principal .flecha-izquierda:hover,
+.promocionales .contenedor-principal .flecha-derecha:hover{
+background:rgba(0,0,0, 0.9) ;
+
+}
+.promocionales .contenedor-principal .flecha-izquierda{
+    left: 0;
+}
+
+.promocionales .contenedor-principal .flecha-derecha{
+    right: 0;
+}
+
+
+
+
+
+/*--------------Carrusel------------------*/
+
+
+.promocionales .contenedor-carousel{
+    width: 100%;
+    padding: 20px 0;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+.promocionales .contenedor-carousel .carousel{
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+
+.promocionales .contenedor-carousel .carousel .promocional{
+    min-width: 25%;
+    transition: .3s ease all;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, rgba(0,0,0, 0.3));
+    margin-right: 7px;
+
+}
+
+.promocionales .contenedor-carousel .carousel .promocional.hover{
+    transform: scale(1.2);
+    vertical-align: top;
+
+}
+
+
+.promocionales .contenedor-carousel .carousel .promocional img{
+    width: 100%;
+    vertical-align: top;
+}
+
+
+
+/*------------- UBICACION -----------------*/
+.mapa {
+    width: 100%;
+    border:0;
+    padding: 2% 0;
+    max-height: 80%;
+}
+
+/*----------------TARJETAS-------------------------------*/
+.tarjetas{
+  width: 100%;
+  
+}
+
+.tarjetas .card{
+  background-color: black;
+
+}
+.card-title{
+  color: white;
+}
+.card-text{
+  color: white;
+}
+
+
+
+/*-------------- VIDEO DE PRESENTACION -------------------*/
+
+.video-responsive {
+    overflow:hidden;
+    padding-bottom:400px; /* Adecua este valor para controlar la altura del video */
+    position:relative;
+    height:0;
+}
+
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height: 100%;
+    width:100%;
+    position:absolute;
+}
+
+.alto-section {
+    height: 100%;
+}
+
+
+
+
+/*------------ PREGUNTAS -----------------*/
+.pregunta-contenedor {
+    width: 80%;
+    /* background: blanchedalmond; */
+    display: block;
+    padding: 1%;
+    border-radius: 5px;
+    margin: 2% auto;
+   /* box-shadow:
+       inset 0 -3em 3em rgba(0,0,0,0.1),
+             0 0  0 2px rgb(255,255,255),
+             0.3em 0.3em 1em rgba(0,0,0,0.3);*/
+}
+
+.pregunta-contenedor h5 {
+    /* font-weight: bold; */
+    font-size: 1em;
+    margin: 0px;
+    padding: 0;
+    /* background: white; */
+}
+
+.pregunta-contenedor p {
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+    /* background: white; */
+}
+
+.pregunta-contenedor hr {
+    margin: 8px 0;
+}
+
+
+
